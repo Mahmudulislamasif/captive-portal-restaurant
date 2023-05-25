@@ -8,6 +8,9 @@ module.exports = {
       },
       fontFamily:{
         "poppins":["Poppins"]
+      },
+      backgroundImage:{
+        "background":"url('../assets/image/restaurant-image.png')",
       }
     },
   },

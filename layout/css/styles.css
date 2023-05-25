@@ -433,6 +433,12 @@ h1 {
   font-weight: 500;
 }
 
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #21212;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -587,6 +593,10 @@ h1 {
   top: 50%;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -636,6 +646,10 @@ h1 {
   margin-top: 2.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -650,6 +664,10 @@ h1 {
 
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .hidden {
@@ -676,6 +694,10 @@ h1 {
   height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -690,18 +712,6 @@ h1 {
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-2\/4 {
-  width: 50%;
-}
-
-.w-1\/5 {
-  width: 20%;
 }
 
 .-translate-x-1\/2 {
@@ -758,10 +768,6 @@ h1 {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -783,14 +789,6 @@ h1 {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.border-\[\] {
-  border-color: ;
-}
-
-.border-\[1p\] {
-  border-color: 1p;
 }
 
 .border-opacity-25 {
@@ -822,9 +820,21 @@ h1 {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-background {
+  background-image: url('../assets/image/restaurant-image.png');
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-4 {
@@ -856,12 +866,12 @@ h1 {
   padding-left: 2.5rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .pl-20 {
   padding-left: 5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .pr-20 {
@@ -889,16 +899,6 @@ h1 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -1041,20 +1041,23 @@ h1 {
     display: flex;
   }
 
-  .md\:w-\[1200px\] {
-    width: 1200px;
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
-  .md\:w-4\/5 {
-    width: 80%;
+  .md\:w-\[1200px\] {
+    width: 1200px;
   }
 
   .md\:w-full {
     width: 100%;
   }
 
-  .md\:w-80 {
-    width: 20rem;
+  .md\:bg-background {
+    background-image: url('../assets/image/restaurant-image.png');
+  }
+
+  .md\:bg-none {
+    background-image: none;
   }
 }
-
